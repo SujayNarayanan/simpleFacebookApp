@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>{{username}}</title>
+    <style>
+        .iconsStyle { width: 200px; display: block; margin-right: auto; margin-left: auto; margin-bottom: 5px;margin-top:20px;}
+    </style>
+</head>
+<body>
+    <div>
+        <h3 style="text-align: center;margin-top: 100px;">{{username}}</h3>
+    </div>
+    <div style="text-align: center;margin-top: 10px;">
+        <img src={{avatar}}>
+    </div>
+    <div>
+        <a href="/logout/{{appUser.id}}"><img class='iconsStyle' src='/static/logoutFb.png'></a>
+    </div>
+</body>
+</html>
